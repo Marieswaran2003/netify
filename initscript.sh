@@ -60,5 +60,5 @@ MOCK_DIR="${ZIP_FILE%.zip}"
 cd "$MOCK_DIR" || { echo "Unable to enter mock directory!"; exit 1; }
 
 # Run start script
-sh mock1/practice.sh
+sh ~/mock1/practice.sh
                                 

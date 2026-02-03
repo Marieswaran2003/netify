@@ -61,6 +61,6 @@ cd "$MOCK_DIR" || { echo "Unable to enter mock directory!"; exit 1; }
 
 # Run start script
 sudo sh ~/labzilla_${choice}/mock${choice}/practice.sh
-cp -r ~/labzilla_${choice}/mock${choice}/* /var/www/html/
+sudo cp -r ~/labzilla_${choice}/mock${choice}/* /var/www/html/
 
                                 
